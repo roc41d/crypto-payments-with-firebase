@@ -2,7 +2,7 @@ const functions = require('firebase-functions');
 const cors = require('cors')({ origin: '*' });
 
 const { Client, Webhook, resources } = require('coinbase-commerce-node');
-const coinbaseSecret = '9e6211dd-3aff-4acc-afd1-aa82f64a1517';
+const coinbaseSecret = 'your-api-key';
 
 Client.init(coinbaseSecret);
 
